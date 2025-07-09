@@ -87,6 +87,11 @@ nav ul a{
 .about{
   border-radius: 10px;
   padding: 130px 150px ;
+  text-align: center;
+}
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 main{
   max-width: 1240px;
@@ -101,4 +106,59 @@ main{
 .about-items{
   display: flex;
   justify-content: space-around;
+}
+
+.taxt-center{
+  text-align: center;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+  
+}
+.skill{
+ padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.exprience-description,.exprience-sub-title{
+  color: #757575;
+  
+}
+.exprience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.exprience{
+  text-align: justify;
+}
+.resume-column-title{
+  text-align: justify;
+}
+.resume-download-cv{
+  margin-top: 50px;
+}
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"], footer input[type="email"], textarea{
+ height: 16px;
+ border-radius: 5px;
+ background-color: white;
+ display: block;
+ width: 461px;
+ padding: 10px 20px;
+ margin-bottom: 24px;
+ border: none;
 }
